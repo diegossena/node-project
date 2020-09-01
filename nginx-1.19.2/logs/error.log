@@ -1,8 +1,0 @@
-2020/08/31 22:38:51 [error] 7604#10632: *1 CreateFile() "C:\Users\Diego Sena\Documents\Projetos\NodeJS\node-project\nginx-1.19.2/html/favicon.ico" failed (2: O sistema não pode encontrar o arquivo especificado), client: 127.0.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "localhost", referrer: "http://localhost/"
-2020/08/31 22:53:00 [error] 7724#7240: *1 upstream timed out (10060: Uma tentativa de conexão falhou porque o componente conectado não respondeu
-corretamente após um período de tempo ou a conexão estabelecida falhou
-porque o host conectado não respondeu) while reading response header from upstream, client: 127.0.0.1, server: localhost, request: "GET /api HTTP/1.1", upstream: "http://127.0.0.1:3333/api", host: "localhost"
-2020/08/31 22:54:13 [error] 7724#7240: *1 upstream timed out (10060: Uma tentativa de conexão falhou porque o componente conectado não respondeu
-corretamente após um período de tempo ou a conexão estabelecida falhou
-porque o host conectado não respondeu) while reading response header from upstream, client: 127.0.0.1, server: localhost, request: "GET /api HTTP/1.1", upstream: "http://127.0.0.1:3333/api", host: "localhost"
-2020/08/31 22:54:59 [error] 7724#7240: *8 WSARecv() failed (10054: Foi forçado o cancelamento de uma conexão existente pelo host remoto) while reading response header from upstream, client: 127.0.0.1, server: localhost, request: "GET /api HTTP/1.1", upstream: "http://127.0.0.1:3333/api", host: "localhost"
