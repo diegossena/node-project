@@ -31,8 +31,7 @@
   "scripts": {
     "build": "babel src --extensions \".js,.ts\" --out-dir dist --copy-files --no-copy-ignored",
     "start": "node dist/server.js",
-    "dev": "ts-node-dev --respawn --transpile-only --ignore-watch node_modules --no-notify src/server.ts",
-    "test": "jest"
+    "dev": "ts-node-dev --respawn --transpile-only --ignore-watch node_modules --no-notify src/server.ts"
   },
   "keywords": [],
   "babel": {
@@ -54,8 +53,7 @@
   "eslintConfig": {
     "env": {
       "es2021": true,
-      "node": true,
-      "jest": true
+      "node": true
     },
     "extends": [
       "standard",
