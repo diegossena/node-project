@@ -8,13 +8,12 @@ const Home: React.FC = () => {
   return (
     <Container>
       <Head>
-        <title>Home</title>
+        <title>Test</title>
       </Head>
       <main>
-        <h1>OverSee</h1>
-        <input className="login" placeholder="Login" />
-        <Link href="/test">
-          <a>Test</a>
+        <h1>Hello World</h1>
+        <Link href="/">
+          <a>Back</a>
         </Link>
       </main>
     </Container>
